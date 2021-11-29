@@ -175,3 +175,6 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " Setting vim airline theme
 let g:airline_theme='distinguished'
+
+" Enabling only some airline extensions
+:let g:airline_extensions = []
