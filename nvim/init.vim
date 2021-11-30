@@ -172,9 +172,10 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-
 " Setting vim airline theme
 let g:airline_theme='distinguished'
 
-" Enabling only some airline extensions
-:let g:airline_extensions = []
+" Changing some sections of vim airline
+let g:airline_section_b = ''
+let g:airline_section_x = ''
+let g:airline_section_z = ''
