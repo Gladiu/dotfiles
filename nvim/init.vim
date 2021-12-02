@@ -6,6 +6,9 @@ Plug 'neoclide/coc.nvim', {'branch': 'release'}
 " Neat status line
 Plug 'vim-airline/vim-airline'
 Plug 'vim-airline/vim-airline-themes'
+
+" Better C/C++ highliting
+Plug 'octol/vim-cpp-enhanced-highlight'
 call plug#end()
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
@@ -182,3 +185,6 @@ let g:airline_theme='distinguished'
 let g:airline_section_b = ''
 let g:airline_section_x = ''
 let g:airline_section_z = ''
+
+" Fixing Flagging curly braces as errors in C 
+let c_no_curly_error=1
