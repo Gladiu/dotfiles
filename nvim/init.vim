@@ -9,6 +9,12 @@ Plug 'vim-airline/vim-airline-themes'
 
 " Better C/C++ highliting
 Plug 'octol/vim-cpp-enhanced-highlight'
+
+" Better glsl highliting
+Plug 'tikhomirov/vim-glsl'
+" Smooth scrolling
+Plug 'psliwka/vim-smoothie'
+
 call plug#end()
 
 " Set internal encoding of vim, not needed on neovim, since coc.nvim using some
@@ -188,3 +194,6 @@ let g:airline_section_z = ''
 
 " Fixing Flagging curly braces as errors in C 
 let c_no_curly_error=1
+
+" Smooth scrolling
+let g:smoothie_enabled=1
